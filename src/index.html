@@ -13,9 +13,9 @@
     <link rel="stylesheet" href="./index.css" />
   </head>
   <header>
-    <nav class="navbar navbar-expand-lg bg-light">
+    <nav class="navbar navbar-expand-lg bg-green">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">Dashboard</a>
+        <a class="navbar-brand white" href="index.html">Restaurante</a>
         <button
           class="navbar-toggler"
           type="button"
@@ -30,13 +30,13 @@
         <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Teste</a>
+              <a class="nav-link white active" aria-current="page" href="index.html">Início</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Teste</a>
+              <a class="nav-link white" href="sobre.html">Sobre</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link disabled">Teste</a>
+              <a class="nav-link white" href="contato.html">Contato</a>
             </li>
           </ul>
           <form class="d-flex" role="search">
@@ -46,7 +46,7 @@
               placeholder="Pesquisar"
               aria-label="Pesquisar"
             />
-            <button class="btn btn-outline-success" type="submit">
+            <button class="btn btn-outline-success white btn-search" type="submit">
               Pesquisar
             </button>
           </form>
@@ -57,40 +57,33 @@
   <body>
     <div style="display: inline-flex; flex-wrap: wrap">
       <div>
-        <a
-          href="#"
-          class="btn btn-primary"
-          style="width: 9em; height: 9em; margin: 10px"
-          >QR Code</a
-        >
+        <a href="qrcode.html" class="btn btn-primary btn-home">
+          QR Code
+          <img src="../public/Images/qrcode.png" style="width: 100px"/>
+        </a>
       </div>
       <div>
-        <a
-          href="#"
-          class="btn btn-primary"
-          style="width: 9em; height: 9em; margin: 10px"
-          >Comprar Ticket</a
-        >
+        <a href="ticket.html" class="btn btn-primary btn-home">
+          Ticket
+          <img src="../public/Images/ticket.png" style="width: 100px"/>
+        </a>
       </div>
       <div>
-        <a
-          href="#"
-          class="btn btn-primary"
-          style="width: 9em; height: 9em; margin: 10px"
-          >Cardápio</a
-        >
+        <a href="cardapio.html" class="btn btn-primary btn-home">
+          Cardápio
+          <img src="../public/Images/cardapio.png" style="width: 100px"/>
+        </a>
       </div>
 
       <div>
-        <a
-          href="#"
-          class="btn btn-primary"
-          style="width: 9em; height: 9em; margin: 10px"
-          >Fila Virtual</a
-        >
+        <a href="fila.html" class="btn btn-primary btn-home">
+          Fila Virtual
+          <img src="../public/Images/fila.png" style="width: 100px"/>
+        </a>
       </div>
     </div>
   </body>
+  
 </html>
 <script
   src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"

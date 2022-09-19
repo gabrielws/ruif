@@ -1,0 +1,20 @@
+.btn-home{
+    background-color: #32A041;
+    border-color: #32A041;
+    width: 9em; 
+    height: 9em;
+    margin: 10px
+}
+
+.bg-green{
+    background-color: #10893E;
+}
+
+.white{
+    color:white;
+}
+
+.btn-search{
+    background-color: white;
+    color: black;
+}
