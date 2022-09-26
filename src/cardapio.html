@@ -12,6 +12,14 @@
     />
     <link rel="stylesheet" href="./index.css" />
   </head>
+  <style>
+    .xy-center{
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      display: flex;
+    }
+  </style>
   <header>
     <nav class="navbar navbar-expand-lg bg-green">
       <div class="container-fluid">
@@ -55,28 +63,34 @@
     </nav>
   </header>
 
-  <div style="text-align: center; margin: 20px; background-color: #32A041; padding: 10px; border-radius: 15px; font-size: 25px;">
+  <div style="width: 100%; flex-direction: column;" class="xy-center">
+    <div style="min-width: 175px; text-align: center; margin: 20px; font-weight: 400; background-color: #32A041; padding: 15px; border-radius: 10px; font-size: 20px;">
       <form>
-          <div class="form-group">
-              <label for="exampleFormControlInput1">Escolha o dia</label>
-              <input type="date" class="form-control" id="date" placeholder="Data" style="text-align: center; height: 40px;">
+          <div class="form-group xy-center" style="flex-direction: column;">
+              <div>
+                <label style="font-size: 19px; color: #ffffff;" for="exampleFormControlInput1">Escolha o dia</label>
+              </div>
+              <div>
+                <input type="date" class="form-control mt-2" id="date" placeholder="Data" style="border-radius: 5px; width: 150px; height: 45px; text-align: center; height: 35px;">
+              </div>
           </div>
       </form>
+    </div>
   </div>
-</div>
+  </div>
 
   <body>
     <table class="table">
       <thead>
         <tr>
-          <th scope="col" style="width: 50%; color: #198754;" >Acompanhamento 1</th>
-          <th scope="col" style="width: 50%; color: #198754;">Vegetariano</th>
+          <th scope="col" style="width: 50%; color: #198754; text-align: center;" >Acompanhamento 1</th>
+          <th scope="col" style="width: 50%; color: #198754;text-align: center;">Vegetariano</th>
         </tr>
       </thead>
       <tbody class="table-group-divider">
         <tr>
-          <td style="width: 50%;">Frango Assado</td>
-          <td style="width: 50%;">Couver Flor</td>
+          <td style="width: 50%; text-align: center;">Frango Assado</td>
+          <td style="width: 50%; text-align: center;">Couver Flor</td>
         </tr>
         </tr>
       </tbody>
@@ -87,14 +101,14 @@
     <table class="table">
       <thead>
         <tr>
-          <th scope="col" style="width: 50%; color: #198754;">Acompanhamento 2</th>
-          <th scope="col" style="width: 50%; color: #198754;">Salada 1</th>
+          <th scope="col" style="width: 50%; color: #198754; text-align: center;">Acompanhamento 2</th>
+          <th scope="col" style="width: 50%; color: #198754; text-align: center;">Salada 1</th>
         </tr>
       </thead>
       <tbody class="table-group-divider">
         <tr>
-          <td style="width: 50%;">Creme de Milho</td>
-          <td style="width: 50%;">Alface Americana</td>
+          <td style="width: 50%; text-align: center;">Creme de Milho</td>
+          <td style="width: 50%; text-align: center;">Alface Americana</td>
         </tr>
         </tr>
       </tbody>
@@ -105,14 +119,14 @@
     <table class="table">
       <thead>
         <tr>
-          <th scope="col" style="width: 50%; color: #198754;">Prato proteico</th>
-          <th scope="col" style="width: 50%; color: #198754;">Salada 2</th>
+          <th scope="col" style="width: 50%; color: #198754; text-align: center;">Prato proteico</th>
+          <th scope="col" style="width: 50%; color: #198754; text-align: center;">Salada 2</th>
         </tr>
       </thead>
       <tbody class="table-group-divider">
         <tr>
-          <td style="width: 50%;">Carne assada</td>
-          <td style="width: 50%;">Tomate</td>
+          <td style="width: 50%; text-align: center;">Carne assada</td>
+          <td style="width: 50%; text-align: center;">Tomate</td>
         </tr>
         </tr>
       </tbody>
@@ -123,14 +137,14 @@
     <table class="table">
       <thead>
         <tr>
-          <th scope="col" style="width: 50%; color: #198754;">Guarnição 1</th>
-          <th scope="col" style="width: 50%; color: #198754;">Salada 3</th>
+          <th scope="col" style="width: 50%; color: #198754; text-align: center;">Guarnição 1</th>
+          <th scope="col" style="width: 50%; color: #198754; text-align: center;">Salada 3</th>
         </tr>
       </thead>
       <tbody class="table-group-divider">
         <tr>
-          <td style="width: 50%;">Feijão</td>
-          <td style="width: 50%;">Cenoura</td>
+          <td style="width: 50%; text-align: center;">Feijão</td>
+          <td style="width: 50%; text-align: center;">Cenoura</td>
         </tr>
         </tr>
       </tbody>
@@ -141,14 +155,14 @@
     <table class="table">
       <thead>
         <tr>
-          <th scope="col" style="width: 50%; color: #198754;">Guarnição 2</th>
-          <th scope="col" style="width: 50%; color: #198754;">Sobremesa</th>
+          <th scope="col" style="width: 50%; color: #198754; text-align: center;">Guarnição 2</th>
+          <th scope="col" style="width: 50%; color: #198754; text-align: center;">Sobremesa</th>
         </tr>
       </thead>
       <tbody class="table-group-divider">
         <tr>
-          <td style="width: 50%;">Arroz </td>
-          <td style="width: 50%;">Doce de Leite</td>
+          <td style="width: 50%; text-align: center;">Arroz </td>
+          <td style="width: 50%; text-align: center;">Doce de Leite</td>
         </tr>
         </tr>
       </tbody>
